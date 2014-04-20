@@ -87,11 +87,11 @@
     
     NSLog(@"c=%.2f, f=%.2f", celsius, fahrenheit);
     
-    NSString* string1 = [NSString stringWithFormat:@"%.2f ºC", celsius];
-    NSString* string2 = [NSString stringWithFormat:@"%.2f ºF", fahrenheit];
+    NSString* string1 = [NSString stringWithFormat:@"%.2f BPM", celsius];
+   // NSString* string2 = [NSString stringWithFormat:@"%.2f ºF", fahrenheit];
     
     [label1 setText:string1];
-    [label2 setText:string2];
+    //[label2 setText:string2];
 }
 
 @end
